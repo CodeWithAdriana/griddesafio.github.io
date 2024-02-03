@@ -6,22 +6,29 @@
 
 .container {
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 132px 1fr;
     min-height: 100vh;
+    grid-template-rows: 70px 1fr;
     grid-template-areas: "header header"
-        "aside products"
-        "footer footer";
+                        "aside products"
+                        "footer footer";
     background-color: #B6B6B6;
 }
 
 .header {
     grid-area: header;
     background-color: #2F001C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
 }
 
 .header img{
-    height: 50%;
-    weight: 50%;
+    max-height: 215px;
+    width: auto;
+    margin: 50px;
+    display: block;
 }
 
 .aside {
@@ -35,7 +42,7 @@
     background-color: #FFEE12;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .boxes {
