@@ -83,25 +83,36 @@
     padding: 10px;
 }
 
+.product-details h4 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
 .product-price {
     font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px; 
-    text-align: center;  
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .boton {
     padding: 10px;
-   background-color: #FFEE12;
+    background-color: #FFEE12;
     border: none;
     cursor: pointer;
     font-size: 16px;
-    color:  black;
+    color: black;
     margin-top: 10px;
     width: 380px;
+    font-weight: bold;
 }
 
 .footer {
     grid-area: footer;
     background-color: #004AAD;
+    height: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
 }
